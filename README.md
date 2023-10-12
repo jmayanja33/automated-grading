@@ -1,4 +1,4 @@
-# Predicting Student Book Report Scores Using Document Embeddings and Neural Networks
+# Predicting Student Essay Scores Using Document Embeddings and Neural Networks
 
 (Kaggle Competition Link: https://www.kaggle.com/competitions/commonlit-evaluate-student-summaries)
 
