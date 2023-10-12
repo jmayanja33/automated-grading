@@ -1,0 +1,17 @@
+
+- Selected Features: ['Component 1', 'Component 3', 'Component 4', 'Component 5', 'Component 7', 'Component 9', 'Component 11', 'Component 12', 'Component 13', 'Component 14', 'Component 15', 'Component 16', 'Component 17', 'Component 18', 'Component 19', 'Component 20', 'Component 21', 'Component 22', 'Component 23', 'Component 24', 'Component 25', 'Component 26', 'Component 27', 'Component 28', 'Component 29', 'Component 30', 'Component 31', 'Component 32', 'Component 33', 'Component 34', 'Component 35', 'Component 36', 'Component 37', 'Component 38', 'Component 39', 'Component 40', 'Component 41', 'Component 42', 'Component 43', 'Component 44', 'Component 45', 'Component 46', 'Component 47', 'Component 48', 'Component 49', 'Component 50', 'Component 51', 'Component 52', 'Component 53', 'Component 54', 'Component 55', 'Component 56', 'Component 57', 'Component 58', 'Component 59', 'Component 60', 'Component 61', 'Component 62', 'Component 63', 'Component 64', 'Component 65', 'Component 66', 'Component 67', 'Component 68', 'Component 69', 'Component 70', 'Component 71', 'Component 72', 'Component 73', 'Component 74', 'Component 75', 'Component 76', 'Component 77', 'Component 78', 'Component 79', 'Component 80', 'Component 82', 'Component 83', 'Component 84', 'Component 85', 'Component 86', 'Component 87', 'Component 88', 'Component 89', 'Component 90', 'Component 91', 'Component 92', 'Component 93', 'Component 94', 'Component 95', 'Component 96', 'Component 97', 'Component 98', 'Component 99', 'Component 100', 'Component 101', 'Component 102', 'Component 103', 'Component 104', 'Component 105', 'Component 106', 'Component 107', 'Component 108', 'Component 109', 'Component 110', 'Component 111', 'Component 112', 'Component 113', 'Component 115', 'Component 116', 'Component 117', 'Component 118', 'Component 119', 'Component 120', 'Component 121', 'Component 123', 'Component 124', 'Component 125', 'Component 126', 'Component 127', 'Component 128', 'Component 129', 'Component 130', 'Component 131', 'Component 134', 'Component 135', 'Component 136', 'Component 137', 'Component 138', 'Component 140', 'Component 143', 'Component 145', 'Component 146', 'Component 147', 'Component 148', 'Component 149', 'Component 150', 'Component 154', 'Component 155', 'Component 157', 'Component 158', 'Component 159', 'Component 166', 'Component 167', 'Component 168', 'Component 170', 'Component 171', 'Component 172', 'Component 173', 'Component 174', 'Component 176', 'Component 178', 'Component 179', 'Component 182', 'Component 183', 'Component 185', 'Component 189', 'Component 195', 'Component 198', 'Component 200', 'Component 204', 'Component 205', 'Component 216', 'Component 226', 'Component 265']
+    
+- Best Params: {'gamma': 1, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 400}
+    
+- Training RMSE: 0.5735941124927048
+- Training R-Squared: 0.689165306744399
+- Training Adj. R-squared: 0.6793193239478595
+    
+- Validation RMSE: 0.784940985903049
+- Test R-squared: 0.4531541924418573
+- Test Adj R-Squared: 0.32955205785679764
+    
+- Test RMSE: 0.7856542204187776
+- Test R-squared: 0.441573350198726
+- Test Adj R-Squared: 0.31500687050475595
+    

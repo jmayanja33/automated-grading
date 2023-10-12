@@ -1,0 +1,17 @@
+
+- Selected Features: None
+    
+- Best Params: None
+    
+- Training RMSE: 0.48726297186518847
+- Training R-Squared: 0.7756908780982814
+- Training Adj. R-squared: 0.7228879951494631
+    
+- Validation RMSE: 0.6230948787727417
+- Test R-squared: 0.6554127235216252
+- Test Adj R-Squared: 3.3907411817685693
+    
+- Test RMSE: 0.6437941480198313
+- Test R-squared: 0.6250293378133333
+- Test Adj R-Squared: 3.556097720096896
+    
