@@ -8,7 +8,7 @@
 
 In the summer of 2023, Vanderbilt University launched a competition on kaggle searching for a strong model to enable automatic grading for teachers. 
 
-Sponsored by CommonLit (a literacy program and ELA that provides benchmark assessments and standard-based data for teachers), the data provided by the competition were short student written essays for four one of four different prompts, all placed in a .csv file (with each row containing the report for a prompt written by a student, along with the corresponding scores). There were two scores which needed to be predicted straight from the students' essays, one for content, and one for wording. To do this accurately and efficiently, the documents need to be embedded, and the resulting vectors will be used as input for two predictive models; one to predict the content score, and one to predict the wording score. Multiple different embedding and regression models were tested, and through trial and error, the best models we created used embeddings from the FlagEmbedding model (https://github.com/FlagOpen/FlagEmbedding) and a Neural Network for score prediction models. The sections below will be a walkthrough of the entire process.
+Sponsored by CommonLit (a literacy program and ELA that provides benchmark assessments and standard-based data for teachers), the data provided by the competition were short student written essays for four one of four different prompts, all placed in a csv file (with each row containing the report for a prompt written by a student, along with the corresponding scores). There were two scores which needed to be predicted straight from the students' essays, one for content, and one for wording. To do this accurately and efficiently, the documents need to be embedded, and the resulting vectors will be used as input for two predictive models; one to predict the content score, and one to predict the wording score. Multiple different embedding and regression models were tested, and through trial and error, the best models we created used embeddings from the FlagEmbedding model (https://github.com/FlagOpen/FlagEmbedding) and a Neural Network for score prediction models. The sections below will be a walkthrough of the entire process.
 
 (Note that Doc2Vec and a spin on TFIDF were also tried as embedding methods, and XGBoost was tried as a predictive model. See `Doc2Vec/doc2vec_controller.py`, `TFIDF/tfidf_controller.py`, and `Models/XGBoost/vector_xgboost_trainer.py` for more details),
 (Also note that due to competition rules, the actual data used is not included here, but can be found at the Kaggle competition page linked above).
@@ -122,7 +122,7 @@ Creating an instance of our data split controller class and calling these two me
 <br />
 
 
-### Embedding Documents
+## Embedding Documents
 
 With data split, we can now begin to transform our data into vectors by embedding each student report. We will use the HuggingFace library to embed documents, which allows for an easy api call to many different language and embedding models. We will make a class to do this.
 
@@ -233,7 +233,7 @@ def save_document_vectors(self):
 
 <br />
 
-### Model Training
+## Model Training
 
 We are now going to use our vectors to train a model. We will utilize multi-layered perceptron models and we will use tensorflow and keras to build them. Observe the class below, which to helps to automate this process. Initializing this class will load our data in the training, test, and validation sets, and then load all of our vectors as well.
 
@@ -371,7 +371,7 @@ if __name__ == '__main__':
 
 <br />
 
-### Model Evaluation
+## Model Evaluation
 
 With both models trained and optimized, we can now see how they performed. First we will check for overfitting, by viewing plots of our training losses.
 
